@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/app/*": ["./app/*"],
+      "@/config/*": ["./config/*"],
+      "@/core/*": ["./core/*"],
+      "@/middleware/*": ["./middlewares/*"],
+      "@/models/*": ["./models/*"],
+      "@/dao/*": ["./dao/*"],
+      "@/service/*": ["./service/*"],
+      "@/lib/*": ["./lib/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "files": ["./typings/global.d.ts"]
+}
