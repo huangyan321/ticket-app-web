@@ -15,5 +15,8 @@
     "turbo": "^1.9.7"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "xieting"
+  "name": "xieting",
+  "dependencies": {
+    "@xieting/utils": "workspace:*"
+  }
 }

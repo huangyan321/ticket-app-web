@@ -32,7 +32,6 @@ class UserDao {
         where: {
           id,
         },
-        raw: true,
       });
       if (!user) {
         throw new global.$error.AuthFailed('账号不存在');
