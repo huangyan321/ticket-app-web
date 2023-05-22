@@ -9,7 +9,7 @@
       "@/*": ["./src/*"]
     },
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "lib": ["DOM.Iterable", "DOM"]
-  }
+    "allowSyntheticDefaultImports": true
+  },
+  "files": ["./src/typings"]
 }

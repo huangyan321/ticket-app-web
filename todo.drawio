@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ZkHXTnjfa1Js3nJ25FPp" name="第 1 页">
-        <mxGraphModel dx="1469" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1744" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -164,60 +164,60 @@
                     <mxGeometry x="540" y="225" width="120" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="消费券list表" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=0;align=center;labelPadding=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="870" y="210" width="250" height="205" as="geometry"/>
+                    <mxGeometry x="870" y="210" width="250" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="49" vertex="1">
-                    <mxGeometry y="30" width="250" height="58" as="geometry"/>
+                    <mxGeometry y="30" width="250" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="创建时间" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="50" vertex="1">
-                    <mxGeometry width="83" height="58" as="geometry">
-                        <mxRectangle width="83" height="58" as="alternateBounds"/>
+                    <mxGeometry width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="52" value="消费券分发原因" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="50" vertex="1">
-                    <mxGeometry x="83" width="84" height="58" as="geometry">
-                        <mxRectangle width="84" height="58" as="alternateBounds"/>
+                    <mxGeometry x="83" width="84" height="60" as="geometry">
+                        <mxRectangle width="84" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="53" value="是否删除" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="50" vertex="1">
-                    <mxGeometry x="167" width="83" height="58" as="geometry">
-                        <mxRectangle width="83" height="58" as="alternateBounds"/>
+                    <mxGeometry x="167" width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="49" vertex="1">
-                    <mxGeometry y="88" width="250" height="59" as="geometry"/>
+                    <mxGeometry y="90" width="250" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="创建人" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="54" vertex="1">
-                    <mxGeometry width="83" height="59" as="geometry">
-                        <mxRectangle width="83" height="59" as="alternateBounds"/>
+                    <mxGeometry width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="56" value="消费券水印|专属图片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="54" vertex="1">
-                    <mxGeometry x="83" width="84" height="59" as="geometry">
-                        <mxRectangle width="84" height="59" as="alternateBounds"/>
+                    <mxGeometry x="83" width="84" height="60" as="geometry">
+                        <mxRectangle width="84" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="57" value="是否正在申请使用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="54" vertex="1">
-                    <mxGeometry x="167" width="83" height="59" as="geometry">
-                        <mxRectangle width="83" height="59" as="alternateBounds"/>
+                    <mxGeometry x="167" width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="49" vertex="1">
-                    <mxGeometry y="147" width="250" height="58" as="geometry"/>
+                    <mxGeometry y="150" width="250" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="更新时间" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="58" vertex="1">
-                    <mxGeometry width="83" height="58" as="geometry">
-                        <mxRectangle width="83" height="58" as="alternateBounds"/>
+                    <mxGeometry width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="是否作废" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="58" vertex="1">
-                    <mxGeometry x="83" width="84" height="58" as="geometry">
-                        <mxRectangle width="84" height="58" as="alternateBounds"/>
+                <mxCell id="60" value="是否核销" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="58" vertex="1">
+                    <mxGeometry x="83" width="84" height="60" as="geometry">
+                        <mxRectangle width="84" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="61" value="是否使用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;curveFitting=1;jiggle=2;fontStyle=0;align=center;" parent="58" vertex="1">
-                    <mxGeometry x="167" width="83" height="58" as="geometry">
-                        <mxRectangle width="83" height="58" as="alternateBounds"/>
+                    <mxGeometry x="167" width="83" height="60" as="geometry">
+                        <mxRectangle width="83" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="62" value="用户表" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=0;align=center;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">

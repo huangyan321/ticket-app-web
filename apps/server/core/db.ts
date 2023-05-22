@@ -42,13 +42,7 @@ class Db {
         scopes: {
           bh: {
             attributes: {
-              exclude: [
-                'password',
-                'updated_at',
-                'deleted_at',
-                'created_at',
-                'is_deleted',
-              ],
+              exclude: ['password', 'updated_at', 'deleted_at', 'is_deleted'],
             },
           },
           iv: {
@@ -88,11 +82,11 @@ class Db {
         };
       }
     }
-    attrs.is_deleted = {
-      type: DataTypes.BOOLEAN,
-      defaultValue: 0,
-      allowNull: false,
-    };
+    // attrs.is_deleted = {
+    //   type: DataTypes.BOOLEAN,
+    //   defaultValue: 0,
+    //   allowNull: false,
+    // };
     return this.sequelize.define(name, attrs, {
       tableName: name,
       timestamps: true,

@@ -17,6 +17,7 @@
   "packageManager": "pnpm@7.15.0",
   "name": "xieting",
   "dependencies": {
-    "@xieting/utils": "workspace:*"
+    "@xieting/utils": "workspace:*",
+    "moment": "^2.29.4"
   }
 }

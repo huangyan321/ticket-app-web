@@ -1,84 +1,40 @@
 <script setup lang="ts">
+import { onBeforeMount, ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
+import { getTicketList } from '@/apis'
+const list = ref<any[]>([])
+onBeforeMount(async () => {
+  const res = await getTicketList()
+  console.log(res)
+  list.value = res.data
+})
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <ul
+    v-for="(item, index) in list"
+    :key="index"
+    style="margin-bottom: 15px; border: 1px solid #000"
+  >
+    <li>消费券分配理由：{{ item.dis_reason }}</li>
+    <li>是否在申请中：{{ item.is_applying == 1 ? '是' : '否' }}</li>
+    <li>是否已核销：{{ item.is_invalid == 1 ? '是' : '否' }}</li>
+    <li>是否被拒绝：{{ item.is_rejected == 1 ? '是' : '否' }}</li>
+    <li>是否已使用：{{ item.is_used == 1 ? '是' : '否' }}</li>
+    <li>
+      消费券类型：{{
+        item.type == 1
+          ? '消气券'
+          : item.type == 2
+          ? '去玩券'
+          : item.type == 3
+          ? '煮饭券'
+          : item.type == 4
+          ? '礼物券'
+          : '未知'
+      }}
+    </li>
+  </ul>
 </template>
 
-<style lang="scss" scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

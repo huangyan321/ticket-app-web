@@ -18,7 +18,7 @@ router.post('/login', async (ctx) => {
     let [err, data] = await UserDao.detail(id);
     if (!err) {
       ctx.response.status = 200;
-      Object.assign(data, { token });
+      Object.assign(data as any, { token });
       ctx.body = res.json(data);
     } else {
       ctx.body = res.fail(err);
